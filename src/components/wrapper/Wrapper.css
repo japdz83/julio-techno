@@ -1,0 +1,58 @@
+.wrapper {
+    text-align: center;
+}
+.wrapper .img {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.wrapper .img i {
+    font-size: 30px;
+}
+.wrapper .product {
+    padding: 30px;
+}
+.wrapper .product h3 {
+    font-weight: 500;
+}
+.wrapper p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: grey;
+}
+.icon-azul {
+    color: #1572a1;
+}
+.icon-rosa {
+    color: #e15454;
+}
+.icon-verde {
+    color: #74dd71;
+}
+.icon-naranja {
+    color: #efa94c;
+}
+
+@media (max-width: 992px) {
+    .wrapper-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .wrapper-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .wrapper-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+}
